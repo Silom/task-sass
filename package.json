@@ -1,0 +1,13 @@
+{
+  "name": "task-scss",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Task for gulp",
+  "author": "Valentin Wetenkamp <wetenkamp@silpion.com>",
+  "scripts": {
+    "setup": "npm install"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.0.1"
+  }
+}
