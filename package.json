@@ -7,7 +7,10 @@
   "scripts": {
     "setup": "npm install"
   },
-  "devDependencies": {
-    "gulp-plumber": "^1.0.1"
+  "dependencies": {
+    "gulp-plumber": "^1.0.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-watch": "^4.2.4"
   }
 }
