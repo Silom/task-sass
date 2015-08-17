@@ -2,7 +2,7 @@
 
 Compiles and watches all Scss-files.
 
-``npm install --save task-sass``
+``npm install --save task-scss``
 
 If you have any idea on other tasks that you need in your project, just tell me and I will most likely create it for you :).
 
