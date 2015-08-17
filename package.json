@@ -1,6 +1,6 @@
 {
   "name": "task-scss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sass task for gulp, ready to use.",
   "author": "Valentin Wetenkamp <valentin.wetenkamp@googlemail.com>",
   "keywords": ["gulp", "task", "precreated", "sass"],
