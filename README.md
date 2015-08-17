@@ -20,7 +20,7 @@ Glop for the destination of the bundle.css file.
 
 Glop for watcher.
 
-#### prefix
+##### prefix
 
 This is optional and will add browser flags for your css (-webkit- etc.).
 Change this to any value that works with [autoprefixer](https://github.com/postcss/autoprefixer).
