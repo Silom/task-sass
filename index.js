@@ -13,7 +13,7 @@ module.exports = function (gulp, param) {
     .pipe(plugins.plumber())
     .pipe(plugins.sass())
     .pipe(plugins.autoprefixer({
-      browsers: ['last 2 versions']
+      browsers: param.prefix ? param.prefix : ['last 2 versions']
     }))
     .pipe(gulp.dest(param.output))
   })

@@ -2,6 +2,8 @@
 
 Compiles and watches all Scss-files.
 
+``npm install --save task-sass``
+
 
 ## Configurations
 
@@ -18,23 +20,29 @@ Glop for the destination of the bundle.css file.
 
 Glop for watcher.
 
+#### prefix
+
+This is optional and will add browser flags for your css (-webkit- etc.).
+Change this to any value that works with [autoprefixer](https://github.com/postcss/autoprefixer).
+
 
 *Example:*
 
 ```
-{
-  rootFile: './styles/bundle.scss',
+require("task-sass")(gulp, {
+  rootFile: './style/bundle.sass',
   output: dest + 'css/',
-  watch: sources.scss /* ./styles/**/*.scss */
-}
+  watch: './style/**/*.sass'
+})
 ```
 
+*Example for optional parameter:*
 
-## Dependencies
-
-- gulp-plumber
-- gulp-watch
-- gulp-sass
-- gulp-autoprefixer
-
-Either install dependencies within this task, or type ``npm install --save-dev [dependencies]``.
+```
+require("task-sass")(gulp, {
+  ...
+  // optional (last 2 is the default, I will make the autoprefixer completely optional for those who like mixins more)
+  prefix: ['last 2 versions'],
+  ...
+})
+```

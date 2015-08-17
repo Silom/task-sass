@@ -1,9 +1,15 @@
 {
   "name": "task-scss",
-  "private": true,
   "version": "0.0.1",
-  "description": "Task for gulp",
-  "author": "Valentin Wetenkamp <wetenkamp@silpion.com>",
+  "description": "Sass task for gulp, ready to use.",
+  "author": "Valentin Wetenkamp <valentin.wetenkamp@googlemail.com>",
+  "keywords": ["gulp", "task", "precreated", "sass"],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Silom/task-sass.git"
+  },
   "scripts": {
     "setup": "npm install"
   },
